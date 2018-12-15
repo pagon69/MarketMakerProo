@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63A92BF6BA0FAAFEE1907AB /* Pods_MarketMakerPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2436B3A6CD76535226A4C0D /* Pods_MarketMakerPro.framework */; };
 		FC0C22EA21C5144200292164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C22E921C5144200292164 /* AppDelegate.swift */; };
 		FC0C22EC21C5144200292164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C22EB21C5144200292164 /* ViewController.swift */; };
 		FC0C22EF21C5144200292164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0C22ED21C5144200292164 /* Main.storyboard */; };
 		FC0C22F121C5144600292164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C22F021C5144600292164 /* Assets.xcassets */; };
 		FC0C22F421C5144600292164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0C22F221C5144600292164 /* LaunchScreen.storyboard */; };
+		FC0C22FC21C5172400292164 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0C22FB21C5172400292164 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32768655F98603CC8882F13B /* Pods-MarketMakerPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMakerPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketMakerPro/Pods-MarketMakerPro.debug.xcconfig"; sourceTree = "<group>"; };
+		62D14D5A4B50751BE12A7593 /* Pods-MarketMakerPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMakerPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketMakerPro/Pods-MarketMakerPro.release.xcconfig"; sourceTree = "<group>"; };
+		B2436B3A6CD76535226A4C0D /* Pods_MarketMakerPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMakerPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0C22E621C5144200292164 /* MarketMakerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketMakerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0C22E921C5144200292164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0C22EB21C5144200292164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		FC0C22F021C5144600292164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC0C22F321C5144600292164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC0C22F521C5144600292164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0C22FB21C5172400292164 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63A92BF6BA0FAAFEE1907AB /* Pods_MarketMakerPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4295430DC741F9D821F1AF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2436B3A6CD76535226A4C0D /* Pods_MarketMakerPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBE29742AFF33894F02FC47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32768655F98603CC8882F13B /* Pods-MarketMakerPro.debug.xcconfig */,
+				62D14D5A4B50751BE12A7593 /* Pods-MarketMakerPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC0C22DD21C5144200292164 = {
 			isa = PBXGroup;
 			children = (
 				FC0C22E821C5144200292164 /* MarketMakerPro */,
 				FC0C22E721C5144200292164 /* Products */,
+				DCBE29742AFF33894F02FC47 /* Pods */,
+				A4295430DC741F9D821F1AF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				FC0C22ED21C5144200292164 /* Main.storyboard */,
 				FC0C22F021C5144600292164 /* Assets.xcassets */,
 				FC0C22F221C5144600292164 /* LaunchScreen.storyboard */,
+				FC0C22FB21C5172400292164 /* GoogleService-Info.plist */,
 				FC0C22F521C5144600292164 /* Info.plist */,
 			);
 			path = MarketMakerPro;
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC0C22F821C5144600292164 /* Build configuration list for PBXNativeTarget "MarketMakerPro" */;
 			buildPhases = (
+				2F1EC4B28FE08A76450A2E2E /* [CP] Check Pods Manifest.lock */,
 				FC0C22E221C5144200292164 /* Sources */,
 				FC0C22E321C5144200292164 /* Frameworks */,
 				FC0C22E421C5144200292164 /* Resources */,
+				CCBE3555FE4075FC62972D2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0C22F421C5144600292164 /* LaunchScreen.storyboard in Resources */,
+				FC0C22FC21C5172400292164 /* GoogleService-Info.plist in Resources */,
 				FC0C22F121C5144600292164 /* Assets.xcassets in Resources */,
 				FC0C22EF21C5144200292164 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1EC4B28FE08A76450A2E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketMakerPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBE3555FE4075FC62972D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarketMakerPro/Pods-MarketMakerPro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketMakerPro/Pods-MarketMakerPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC0C22E221C5144200292164 /* Sources */ = {
@@ -280,6 +373,7 @@
 		};
 		FC0C22F921C5144600292164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32768655F98603CC8882F13B /* Pods-MarketMakerPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		FC0C22FA21C5144600292164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D14D5A4B50751BE12A7593 /* Pods-MarketMakerPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
